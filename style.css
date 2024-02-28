@@ -1,1 +1,32 @@
+header{
+    background-color: rgb(49, 94, 241);
+    color: rgb(255, 67, 208); 
+    border: 2px solid;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    font-size: medium;
+    text-align: center;
+    text-shadow: 2px 2px 2px red;
+}
+#inf1{
+    background-color: rgb(164, 105, 223);
+    color: aqua;
+    margin-top: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 2px solid;
+    border-radius: 20px;
+    height: 30px;
+    text-align: center;
+}
 
+body{
+    background-image: url(bck.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#img1{
+    height: 500px;
+}
