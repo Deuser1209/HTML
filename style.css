@@ -30,5 +30,34 @@ body{
     color: rgb(133, 2, 255);
     border: 10px solid;
     border-radius: 20px;
-    width: 600px;
+    width: 1620px;
+    height: 300px;
+    margin-left: 35px;
+}
+#ClaMon{
+    float: left;
+    border: 10px solid;
+    border-radius: 20px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 500px;
+    background-color: aquamarine;
+}
+#ClaSec{
+    float: left;
+    border: 10px solid;
+    border-radius: 20px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 500px;
+    background-color: aquamarine;
+}
+#UniSec{
+    float: left;
+    border: 10px solid;
+    border-radius: 20px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 500px;
+    background-color: aquamarine;
 }
