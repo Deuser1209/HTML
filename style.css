@@ -16,15 +16,11 @@ body{
     background-repeat: no-repeat;
 }
 #inf1{
-    background-color: rgb(164, 105, 223);
+    background-color:mediumpurple;
     color: aqua;
-    margin-top: 5px;
-    margin-left: 150px;
-    margin-right: 150px;
-    border: 2px solid;
-    border-radius: 20px;
-    height: 30px;
-    text-align: center;
+    border: 5px solid;
+    margin-left: 10px;
+    width: 600px;
 }
 #div1{
     color: rgb(133, 2, 255);
