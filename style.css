@@ -32,7 +32,8 @@ body{
     border-radius: 20px;
     width: 1620px;
     height: 300px;
-    margin-left: 35px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #ClaMon{
     float: left;
@@ -40,8 +41,17 @@ body{
     border-radius: 20px; 
     margin-left: 10px;
     margin-right: 10px;
+    height: 259px;
     width: 500px;
     background-color: aquamarine;
+    #mquan{
+        height: 232px;
+        width: 190px;
+        float: right;
+        margin-right: 10px;
+        margin-top: 19px;
+    }
+
 }
 #ClaSec{
     float: left;
@@ -51,6 +61,13 @@ body{
     margin-right: 10px;
     width: 500px;
     background-color: aquamarine;
+    #nphu{
+        height: 230px;
+        width: 190px;
+        float: right;
+        margin-right: 10px;
+        margin-top: 19px;
+    }
 }
 #UniSec{
     float: left;
@@ -60,4 +77,11 @@ body{
     margin-right: 10px;
     width: 500px;
     background-color: aquamarine;
+    #alinh{
+        height: 230px;
+        width: 190px;
+        float: right;
+        margin-right: 10px;
+        margin-top: 19px;
+    }
 }
