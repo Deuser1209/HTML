@@ -19,6 +19,7 @@ body{
     background-color:mediumpurple;
     color: aqua;
     border: 5px solid;
+    border-radius: 10px;
     margin-left: 10px;
     width: 600px;
 }
@@ -47,7 +48,6 @@ body{
         margin-right: 10px;
         margin-top: 19px;
     }
-
 }
 #ClaSec{
     float: left;
@@ -79,5 +79,31 @@ body{
         float: right;
         margin-right: 10px;
         margin-top: 19px;
+    }
+}
+#div2{
+    color: rgb(133, 2, 255);
+    border: 10px solid;
+    border-radius: 20px;
+    width: 1080px;
+    height: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    #grld{
+        
+        float: left;
+        border: 10px solid;
+        border-radius: 20px; 
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 500px;
+        background-color: aquamarine;
+        #grlder{
+            height: 230px;
+            width: 190px;
+            float: right;
+            margin-right: 10px;
+            margin-top: 19px;
+        }
     }
 }
