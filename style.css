@@ -22,15 +22,15 @@ body{
     border-radius: 10px;
     margin-left: 10px;
     width: 600px;
+
 }
 #div1{
     color: rgb(133, 2, 255);
     border: 10px solid;
     border-radius: 20px;
-    width: 1620px;
+    width: 1465px;
     height: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 #ClaMon{
     float: left;
@@ -38,14 +38,13 @@ body{
     border-radius: 20px; 
     margin-left: 10px;
     margin-right: 10px;
-    height: 259px;
-    width: 500px;
+    width: 455px;
     background-color: aquamarine;
     #mquan{
         height: 232px;
         width: 190px;
         float: right;
-        margin-right: 10px;
+        margin-right: 5px;
         margin-top: 19px;
     }
 }
@@ -55,7 +54,7 @@ body{
     border-radius: 20px; 
     margin-left: 10px;
     margin-right: 10px;
-    width: 500px;
+    width: 450px;
     background-color: aquamarine;
     #nphu{
         height: 230px;
@@ -71,7 +70,7 @@ body{
     border-radius: 20px; 
     margin-left: 10px;
     margin-right: 10px;
-    width: 500px;
+    width: 440px;
     background-color: aquamarine;
     #alinh{
         height: 230px;
@@ -106,4 +105,7 @@ body{
             margin-top: 19px;
         }
     }
+}
+@keyframes slideleft {
+    from(transition)
 }
