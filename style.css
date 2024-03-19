@@ -1,4 +1,6 @@
 header{
+    animation-name: slideDown;
+    animation-duration: 3s;
     background-color: rgb(49, 94, 241);
     color: rgb(255, 67, 208); 
     border: 2px solid;
@@ -10,102 +12,92 @@ header{
     text-align: center;
     text-shadow: 2px 2px 2px red;
 }
+@keyframes slideLeft{
+    from{transform: translateX(5000px);}
+}
+@keyframes slideRight{
+    from{transform: translateX(3000px);}
+}
+@keyframes slideUp{
+    from{transform: translateY(3000px);}
+}
+@keyframes slideDown{
+    from{transform: translateY(-300px);}
+}
+@keyframes rotate{
+    25%{transform: rotateY(180deg);}
+}
 body{
     background-image: url(bck.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 #inf1{
+    animation-name: slideLeft;
+    animation-duration: 3s;
     background-color:mediumpurple;
     color: aqua;
     border: 5px solid;
     border-radius: 10px;
     margin-left: 10px;
     width: 600px;
-
 }
 #div1{
+    animation-name: slideRight;
+    animation-duration: 3s;
     color: rgb(133, 2, 255);
     border: 10px solid;
     border-radius: 20px;
-    width: 1465px;
-    height: 300px;
-    
+    width: 1000px;
+    height: 465px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #ClaMon{
-    float: left;
+    animation-name: rotate;
+    animation-duration: 5s;
+    float: right;
     border: 10px solid;
     border-radius: 20px; 
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 455px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 280px;
     background-color: aquamarine;
-    #mquan{
-        height: 232px;
-        width: 190px;
-        float: right;
-        margin-right: 5px;
-        margin-top: 19px;
-    }
-}
-#ClaSec{
-    float: left;
-    border: 10px solid;
-    border-radius: 20px; 
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 450px;
-    background-color: aquamarine;
-    #nphu{
-        height: 230px;
-        width: 190px;
-        float: right;
-        margin-right: 10px;
-        margin-top: 19px;
-    }
-}
-#UniSec{
-    float: left;
-    border: 10px solid;
-    border-radius: 20px; 
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 440px;
-    background-color: aquamarine;
-    #alinh{
-        height: 230px;
-        width: 190px;
-        float: right;
-        margin-right: 10px;
-        margin-top: 19px;
+    #clmon{
+        border: 5px solid;
+        margin-left: 60px;
+        height: 150px;
+        width: 150px;
+        border-radius: 150px;
     }
 }
 #div2{
+    animation-name: slideUp;
+    animation-duration: 3.5s;
     color: rgb(133, 2, 255);
     border: 10px solid;
     border-radius: 20px;
-    width: 1080px;
-    height: 610px;
+    width: 1280px;
+    height: 465px;
     margin-left: auto;
     margin-right: auto;
     #grld{
-        
+        animation-name:rotate;
+        animation-duration: 5s;
         float: left;
         border: 10px solid;
         border-radius: 20px; 
         margin-left: 10px;
         margin-right: 10px;
-        width: 500px;
+        width: 280px;
         background-color: aquamarine;
         #grlder{
-            height: 230px;
-            width: 190px;
-            float: right;
-            margin-right: 10px;
-            margin-top: 19px;
+            border: 5px solid;
+            margin-left: 60px;
+            height: 150px;
+            width: 150px;
+            border-radius: 150px;
         }
     }
-}
-@keyframes slideleft {
-    from(transition)
+
 }
