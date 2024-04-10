@@ -2,16 +2,6 @@ body{
     background-image: url(bck.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    #inf1{
-        animation-name: slideLeft;
-        animation-duration: 3s;
-        background-color:mediumpurple;
-        color: aqua;
-        border: 5px solid;
-        border-radius: 10px;
-        margin-left: 10px;
-        width: 600px;
-    }
     header{
         animation-name: slideDown;
         animation-duration: 3s;
@@ -20,9 +10,73 @@ body{
         border: 2px solid;
         border-radius: 20px;
         margin-top: auto;
-        font-size: large;
+        font-size: xx-large;
         text-align: center;
         text-shadow: 2px 2px 2px red;
+    }
+    #inf1{
+        animation-name: slideLeft;
+        animation-duration: 3s;
+        background-color:mediumpurple;
+        color: aqua;
+        border: 5px solid;
+        border-radius: 10px;
+        margin-left: 10px;
+        width: 700px;
+        font-size: x-large;
+    }
+    #div1{
+        overflow: auto;
+        animation-name: slideRight;
+        animation-duration: 3s;
+        color: rgb(133, 2, 255);
+        border: 10px solid;
+        border-radius: 25px;
+        width: 1105px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        #ClaMon{
+            animation-name: rotate;
+            animation-duration: 5s;
+            border: 10px solid;
+            border-radius: 20px; 
+            margin-left: 15px;
+            margin-right: 15px;
+            width: 1030px;
+            height: 459px;
+            font-size: larger;
+            background-color: aquamarine;
+            #clmon{
+                margin-right: 10px;
+                margin-top: 5px;
+                height: 440px;
+                width: 350px;
+                float:right;
+            }
+        }
+    }
+    #div2{
+        animation-name: slideUp;
+        animation-duration: 3s;
+        text-align: center;
+        background-color: rgba(33, 123, 175, 0.932);
+        border: 2px solid;
+        border-radius: 50px;
+        height: 1005px;
+        width: 1800px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: xx-large;
+        text-shadow: 2px 2px 2px red;
+        #vid1{
+            text-align: center;
+            border: 5px solid;
+            height: 800px;
+            width: 1550px;
+            border-radius: 200px;
+            border-color: rgb(145, 0, 241);
+        }
     }
     .dropdown{
         display: inline-block;
@@ -71,9 +125,10 @@ body{
         padding: 10px;
         margin: auto;
         border: 5px solid;
+        font-size: x-large;
         border-radius: 20px;
         border-color: rgb(145, 0, 241);
-        width: 360px;
+        width: 505px;
         overflow: hidden;
     }
     .navbar a{
@@ -91,39 +146,6 @@ body{
     .navbar li{
         float:left;
     }
-    
-    #div1{
-        overflow: auto;
-        animation-name: slideRight;
-        animation-duration: 3s;
-        color: rgb(133, 2, 255);
-        border: 10px solid;
-        border-radius: 20px;
-        width: 1105px;
-        height: 500px;
-        margin-left: auto;
-        margin-right: auto;
-        #ClaMon{
-            animation-name: rotate;
-            animation-duration: 5s;
-            border: 10px solid;
-            border-radius: 20px; 
-            margin-left: 15px;
-            margin-right: 15px;
-            width: 1030px;
-            height: 459px;
-            font-size: larger;
-            background-color: aquamarine;
-            #clmon{
-                margin-right: 10px;
-                margin-top: 5px;
-                height: 440px;
-                width: 350px;
-                float:right;
-            }
-        }
-    }
-  
 }
 @keyframes slideLeft{
     from{transform: translateX(5000px);}
@@ -140,4 +162,3 @@ body{
 @keyframes rotate{
     25%{transform: rotateY(180deg);}
 }
-
