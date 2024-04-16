@@ -1,164 +1,260 @@
 body{
-    background-image: url(bck.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    header{
-        animation-name: slideDown;
-        animation-duration: 3s;
-        background-color: rgb(49, 94, 241);
-        color: rgb(255, 67, 208); 
-        border: 2px solid;
-        border-radius: 20px;
-        margin-top: auto;
-        font-size: xx-large;
-        text-align: center;
-        text-shadow: 2px 2px 2px red;
-    }
-    #inf1{
-        animation-name: slideLeft;
-        animation-duration: 3s;
-        background-color:mediumpurple;
-        color: aqua;
-        border: 5px solid;
-        border-radius: 10px;
-        margin-left: 10px;
-        width: 700px;
-        font-size: x-large;
-    }
-    #div1{
-        overflow: auto;
-        animation-name: slideRight;
-        animation-duration: 3s;
-        color: rgb(133, 2, 255);
-        border: 10px solid;
-        border-radius: 25px;
-        width: 1105px;
-        height: 500px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: x-large;
-        #ClaMon{
-            animation-name: rotate;
-            animation-duration: 5s;
-            border: 10px solid;
-            border-radius: 20px; 
-            margin-left: 15px;
-            margin-right: 15px;
-            width: 1030px;
-            height: 459px;
-            background-color: aquamarine;
-            #clmon{
-                margin-right: 10px;
-                margin-top: 5px;
-                height: 440px;
-                width: 350px;
-                float:right;
-            }
-        }
-    }
-    #div2{
-        animation-name: slideUp;
-        animation-duration: 3s;
-        text-align: center;
-        background-color: rgba(33, 123, 175, 0.932);
-        border: 2px solid;
-        border-radius: 50px;
-        height: 1005px;
-        width: 1800px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: xx-large;
-        text-shadow: 2px 2px 2px red;
-        #vid1{
-            text-align: center;
-            border: 5px solid;
-            height: 800px;
-            width: 1550px;
-            border-radius: 200px;
-            border-color: rgb(145, 0, 241);
-        }
-    }
-    .dropdown{
-        display: inline-block;
-    }
-    .dropdown button{
-        background-color: rgb(54, 144, 228);
-        color: rgb(247, 0, 226);
-        padding: 10px 15px;
-        border: none;
-        font-size: larger;
-        font-family: 'Times New Roman', Times, serif;
-        cursor: pointer;
-    }
-    .dropdown button:hover{
-        background-color: aqua;
-    }
-    .dropdown a{
-        display: block;
-        color: aqua;
-        text-decoration: none;
-        padding: 10px 15px;
-    }
-    .dropdown .content{
-        display: none;
-        background-color: rgb(54, 144, 228);
-        position:absolute;
-        border: 4px solid;
-        border-radius: 10px;
-        border-color: rgb(145, 0, 241);
-        box-shadow: 2px 2px 5px rgb(0, 204, 255);
-    }
-    .dropdown:hover .content{
-        display: block;
-    }
-    .dropdown:hover .button{
-        background-color: blue;
-    }
-    .dropdown a:hover{
-        background-color: rgba(7, 73, 255, 0.932);
-    }
-    .navbar ul{
-        animation-name: slideDown;
-        animation-duration: 3s;
-        list-style: none;
-        background-color: rgb(54, 144, 228);
-        padding: 10px;
-        margin: auto;
-        border: 5px solid;
-        font-size: x-large;
-        border-radius: 20px;
-        border-color: rgb(145, 0, 241);
-        width: 505px;
-        overflow: hidden;
-    }
-    .navbar a{
-        text-align: center;
-        text-decoration: none;
-        padding: 10px;
-        display: block;
-        font-size: larger;
-        font-family: 'Times New Roman', Times, serif;
-        color: rgb(247, 0, 226);
-    }
-    .navbar a:hover{
-        background-color: aqua;
-    }
-    .navbar li{
-        float:left;
-    }
+background-image: url(bck.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+header{
+animation-name: slideDown;
+animation-duration: 3s;
+background-color: rgb(49, 94, 241);
+color: rgb(255, 67, 208); 
+border: 2px solid;
+border-radius: 20px;
+margin-top: auto;
+text-align: center;
+text-shadow: 5px 5px 5px red;
+}
+#inf1{
+animation-name: slideLeft;
+animation-duration: 3s;
+background-color:mediumpurple;
+color: aqua;
+border: 5px solid;
+border-radius: 10px;
+margin-left: 10px;
+width: 700px;
+font-size: x-large;
+}
+#mydiv{
+animation-name: slideUp;
+animation-duration: 3s;
+position: fixed;
+background-image: url(_A5A0911.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-color: rgba(29, 189, 230, 0.699);
+border-color: rgba(139, 41, 230, 0.658);
+height: 1500px;
+width: 94%;
+margin-left: 3%;
+margin-right: 3%;
+margin-left: 3%;
+border: 5px solid;
+border-radius: 100px;
+}
+#ClaMon{
+animation-name: rotate;
+animation-duration: 5s;
+border: 10px solid;
+border-radius: 20px; 
+margin-left: 15px;
+margin-right: 15px;
+width: 1230px;
+height: 550px;
+background-color: aquamarine;
+#clmon{
+border-color: rgba(137, 43, 226, 0.534);
+border: 10px solid;
+margin-right: 10px;
+border-radius: 20px; 
+margin-top: 5px;
+height: 440px;
+width: 350px;
+float:right;
+}
+#clmon2{
+margin-left: 5px;
+border-color: blueviolet;
+border: 10px solid;
+margin-right: 10px;
+border-radius: 20px; 
+margin-top: 5px;
+height: 440px;
+width: 350px;
+float:left;
+}
+
+}
+#mydiv2{
+position: absolute;
+
+background-color: rgba(29, 189, 230, 0.699);
+border-color: rgba(139, 41, 230, 0.658);
+height: 1200px;
+width: 94%;
+margin-left: 3%;
+margin-right: 3%;
+margin-top: 1%;
+border: 5px solid;
+border-radius: 100px;
+#vid2{
+height: 1050px;
+width: 94%;
+margin-left: 3%;
+margin-right: 3%;
+margin-left: 3%;
+border: 5px solid;
+border-radius: 100px;
+}
+}
+#mybutton{
+animation-name: slideRight;
+animation-duration: 3s;
+color: rgb(133, 2, 255);
+border: 15px solid;
+border-radius: 25px;
+width: 1340px;
+margin-left: 500px;
+height: 710px;
+background-color:  rgba(133, 2, 255, 0.555);
+overflow: auto;
+font-size: x-large;
+}
+#mybutton2{
+border-radius: 1000px;
+margin-right: 10px;
+float: right;
+background-color: rgba(32, 29, 29, 0.699);
+border-color: rgba(32, 29, 29, 0.699);
+height: 100px;
+width: 100px;
+}
+#mybutton4{
+border-radius: 1000px;
+margin-right: 10px;
+float: right;
+background-color: rgba(32, 29, 29, 0.699);
+border-color: rgba(32, 29, 29, 0.699);
+height: 100px;
+width: 100px;
+}
+#mybutton3{
+border-radius: 1000px;
+margin-right: 10px;
+float: right;
+background-color: rgba(32, 29, 29, 0.699);
+border-color: rgba(32, 29, 29, 0.699);
+height: 100px;
+width: 100px;
+}
+#icon{
+border-radius: 100px;
+margin: 0px;
+height: 90px;
+width: 90px;
+}
+#icon2{
+border-radius: 100px;
+margin: 0px;
+height: 90px;
+width: 90px;
+}
+#div2{
+animation-name: slideUp;
+animation-duration: 3s;
+text-align: center;
+background-color: rgba(33, 123, 175, 0.932);
+border: 2px solid;
+border-radius: 50px;
+height: 1005px;
+width: 1800px;
+margin-left: auto;
+margin-right: auto;
+font-size: xx-large;
+
+text-shadow: 2px 2px 2px red;
+#vid1{
+text-align: center;
+border: 5px solid;
+height: 800px;
+width: 1550px;
+border-radius: 200px;
+border-color: rgb(145, 0, 241);
+}
+}
+.dropdown{
+display: inline-block;
+}
+.dropdown button{
+background-color: rgb(54, 144, 228);
+color: rgb(247, 0, 226);
+padding: 10px 15px;
+border: none;
+font-size: larger;
+font-family: 'Times New Roman', Times, serif;
+cursor: pointer;
+}
+.dropdown button:hover{
+background-color: aqua;
+}
+.dropdown a{
+display: block;
+color: aqua;
+text-decoration: none;
+padding: 10px 15px;
+}
+.dropdown .content{
+display: none;
+background-color: rgb(54, 144, 228);
+position:absolute;
+border: 4px solid;
+border-radius: 10px;
+border-color: rgb(145, 0, 241);
+box-shadow: 2px 2px 5px rgb(0, 204, 255);
+}
+.dropdown:hover .content{
+display: block;
+}
+.dropdown:hover .button{
+background-color: blue;
+}
+.dropdown a:hover{
+background-color: rgba(7, 73, 255, 0.932);
+}
+.navbar ul{
+animation-name: slideDown;
+animation-duration: 3s;
+list-style: none;
+background-color: rgb(54, 144, 228);
+padding: 10px;
+margin: auto;
+border: 5px solid;
+font-size: x-large;
+border-radius: 20px;
+border-color: rgb(145, 0, 241);
+width: 505px;
+overflow: hidden;
+}
+.navbar a{
+text-align: center;
+text-decoration: none;
+padding: 10px;
+display: block;
+font-size: larger;
+font-family: 'Times New Roman', Times, serif;
+color: rgb(247, 0, 226);
+}
+.navbar a:hover{
+background-color: aqua;
+}
+.navbar li{
+float:left;
+}
+
 }
 @keyframes slideLeft{
-    from{transform: translateX(5000px);}
+from{transform: translateX(5000px);}
 }
 @keyframes slideRight{
-    from{transform: translateX(3000px);}
+from{transform: translateX(3000px);}
 }
 @keyframes slideUp{
-    from{transform: translateY(3000px);}
+from{transform: translateY(3000px);}
 }
 @keyframes slideDown{
-    from{transform: translateY(-300px);}
+from{transform: translateY(-300px);}
 }
 @keyframes rotate{
-    25%{transform: rotateY(180deg);}
+25%{transform: rotateY(180deg);}
 }
+
